@@ -3,6 +3,7 @@
 This project aims to build a machine learning model for recognizing different types of barbell exercises using accelerometer and gyroscope data from wearable devices. The data is processed, cleaned, and temporally abstracted to extract meaningful features for training and testing machine learning models.
 
 ## Project Structure
+```bash
 |-- Code/
 | |-- pycache/
 | |-- DataTransformation.py # Script for data transformation
@@ -19,6 +20,7 @@ This project aims to build a machine learning model for recognizing different ty
 | |-- cleaned_file.csv # Cleaned sensor data
 | |-- cleaned_file_outlier.csv # Cleaned data after outlier removal
 | |-- README.md # Project documentation (this file)
+```
 
 ## Setup and Installation
 
