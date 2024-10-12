@@ -15,7 +15,7 @@ This project aims to build a machine learning model for recognizing different ty
 | |-- make_dataset.py # Script to process and merge accelerometer & gyroscope data
 | |-- remove_outlier.py # Script to clean data by removing outliers
 | |-- train_model.ipynb # Jupyter notebook for training the machine learning model
-| |-- Files/
+|Files/
 | |-- cleaned_feature.csv # CSV with extracted features
 | |-- cleaned_file.csv # Cleaned sensor data
 | |-- cleaned_file_outlier.csv # Cleaned data after outlier removal
@@ -29,8 +29,7 @@ To run this project, you'll need to have Python installed, along with the necess
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/kushpatel16112/Machine-Learning.git
     ```
 
 2. Install the required Python packages:
