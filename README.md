@@ -15,7 +15,7 @@ This project aims to build a machine learning model for recognizing different ty
 | |-- make_dataset.py # Script to process and merge accelerometer & gyroscope data
 | |-- remove_outlier.py # Script to clean data by removing outliers
 | |-- train_model.ipynb # Jupyter notebook for training the machine learning model
-|Files/
+|-- Files/
 | |-- cleaned_feature.csv # CSV with extracted features
 | |-- cleaned_file.csv # Cleaned sensor data
 | |-- cleaned_file_outlier.csv # Cleaned data after outlier removal
@@ -138,5 +138,5 @@ Trained model saved in the `models/` directory.
 - Explore additional feature extraction techniques for better performance.
 
 ## License:
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project has a no license it's open source for everyone.
 
