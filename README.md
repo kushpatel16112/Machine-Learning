@@ -3,9 +3,22 @@
 This project aims to build a machine learning model for recognizing different types of barbell exercises using accelerometer and gyroscope data from wearable devices. The data is processed, cleaned, and temporally abstracted to extract meaningful features for training and testing machine learning models.
 
 ## Project Structure
-
-|-- data/ | |-- raw/ # Raw CSV files collected from MetaMotion devices | |-- interim/ # Intermediate cleaned data files | |-- processed/ # Final processed data for machine learning |-- scripts/ | |-- make_dataset.py # Script to process and merge accelerometer & gyroscope data | |-- remove_outlier.py # Script to clean data by removing outliers | |-- TemporalAbstraction.py # Script for temporal abstraction of the time-series data |-- models/ | |-- model_training.py # Script to train the machine learning model |-- README.md # Project documentation (this file)
-
+|-- Code/
+| |-- pycache/
+| |-- DataTransformation.py # Script for data transformation
+| |-- FrequencyAbstraction.py # Script for frequency domain feature extraction
+| |-- LearningAlgorithms.py # Script for implementing learning algorithms
+| |-- TemporalAbstraction.py # Script for temporal abstraction of the time-series data
+| |-- count_repetitions.py # Script for counting exercise repetitions
+| |-- features.ipynb # Jupyter notebook for feature extraction and analysis
+| |-- make_dataset.py # Script to process and merge accelerometer & gyroscope data
+| |-- remove_outlier.py # Script to clean data by removing outliers
+| |-- train_model.ipynb # Jupyter notebook for training the machine learning model
+| |-- Files/
+| |-- cleaned_feature.csv # CSV with extracted features
+| |-- cleaned_file.csv # Cleaned sensor data
+| |-- cleaned_file_outlier.csv # Cleaned data after outlier removal
+| |-- README.md # Project documentation (this file)
 
 ## Setup and Installation
 
